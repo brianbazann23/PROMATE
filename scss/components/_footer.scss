@@ -1,0 +1,18 @@
+footer{
+    background-color: #111;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    .redes{
+        a{
+            text-decoration: none;
+            color: forestgreen;
+            font-size: 40px;
+            letter-spacing: 10px;
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+}

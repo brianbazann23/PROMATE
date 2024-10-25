@@ -1,0 +1,107 @@
+// ?--------HEADER
+@media screen and (max-width: 685px) {
+    .bienvenidos {
+        flex-direction: column;
+    }
+
+    .bienvenidos div {
+        width: 80%;
+        padding: 30px;
+    }
+
+    .bienvenidos img {
+        display: column;
+    }
+}
+@media screen and (max-width: 410px ){
+    .bienvenidos img{
+        width: 300px;
+        height: 320px;
+    }
+}
+
+// ?------------NOSOTROS
+@media screen and (max-width: 855px) {
+    .nosotros-caja{
+        display: flex;
+        flex-direction: column;
+    }
+    .nosotros-title{
+        font-size: 30px;
+    }
+    .nosotros-p{
+        font-size: 20px;
+        color: white;
+        padding: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+    .nosotros
+    iframe{
+        border-radius: 5px;
+        width: 100%;
+        height: 300px;
+        padding: 60px;
+    }
+}
+@media screen and (max-width:448px){
+    .nosotros-p{
+        font-size: 20px;
+        color: white;
+        padding: 40px;
+    }
+}
+
+
+// ?-----------SERVICIO
+
+@media screen and (max-width: 880px) {
+    .card-servicios {
+        width: 100%;
+        height: auto;
+        padding: 0%;
+    }
+    .container-tarj {
+        width: 100%;
+    }
+    .card {
+        width: 300px;
+        margin: 20px;
+    }
+    .card img {
+        width: 100%;
+        height: 300px;
+    }
+    .card .contenido {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+}
+@media screen and (max-width: 830px){
+    .card .contenido p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:730px){
+    .container-tarj {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+// ?---------------CONTACTO
+@media screen and (max-width: 458px){
+    form {
+        width: 350px;
+        padding: 20px;
+    }
+}
