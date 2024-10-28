@@ -12,7 +12,7 @@ header {
 }
 
 header nav .container-fluid {
-    background-color: black;
+    background-color: $color-secundario;
 }
 
 
