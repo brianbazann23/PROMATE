@@ -1,17 +1,17 @@
 footer{
-    background-color: #111;
+    background-color: $color-secundario;
     width: 100%;
-    color: #fff;
+    color: $color-terciario;
     text-align: center;
     font-size: 25px;
     .redes{
         a{
             text-decoration: none;
-            color: forestgreen;
+            color: $color-principal;
             font-size: 40px;
             letter-spacing: 10px;
             &:hover{
-                color: #fff;
+                color: $color-terciario;
             }
         }
     }

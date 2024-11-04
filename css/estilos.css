@@ -21,6 +21,14 @@ header {
       color: white; }
   header nav .navbarSupportedContent .navbar-nav .navbar-toggler {
     color: forestgreen; }
+  header nav .navbarSupportedContent .btn-outline-success {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.613);
+    border-radius: 4px;
+    border-color: #228b22; }
+    header nav .navbarSupportedContent .btn-outline-success:hover {
+      background: #228b22;
+      color: #fff; }
 
 .hero {
   color: forestgreen;
@@ -37,7 +45,7 @@ header {
   align-items: center; }
   .hero h2 {
     font-size: 40px;
-    color: #228b22; }
+    color: forestgreen; }
   .hero p {
     font-size: 20px; }
 
@@ -74,7 +82,7 @@ header {
       justify-content: center;
       align-items: center; }
       .nosotros .nosotros-caja .nosotros-p .nosotros-title {
-        color: #fff;
+        color: white;
         font-size: 40px; }
       .nosotros .nosotros-caja .nosotros-p .nosotros-iframe {
         display: flex;
@@ -101,7 +109,7 @@ header {
       margin: 20px;
       border-radius: 6px;
       overflow: hidden;
-      background: #fff;
+      background: white;
       box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
       cursor: default;
       transition: all 400ms ease;
@@ -121,7 +129,7 @@ header {
           color: forestgreen; }
         .card-servicios .container-tarj .card .contenido p {
           line-height: 1.5;
-          color: #111; }
+          color: black; }
         .card-servicios .container-tarj .card .contenido a {
           text-decoration: none;
           display: flex;
@@ -129,13 +137,13 @@ header {
           align-items: center;
           padding: 10px;
           margin-top: 10px;
-          color: #111;
-          border: 1px solid #228b22;
+          color: black;
+          border: 1px solid forestgreen;
           border-radius: 4px;
           transition: all 400ms ease; }
           .card-servicios .container-tarj .card .contenido a:hover {
-            background: #228b22;
-            color: #fff; }
+            background: forestgreen;
+            color: white; }
 
 .fondo-contact {
   background-image: url(../img/fondocontacto.jpeg);
@@ -155,7 +163,7 @@ header {
       margin: 0;
       font-size: 30px;
       margin-bottom: 20px;
-      color: #fff; }
+      color: white; }
     .fondo-contact form input, .fondo-contact form textarea {
       width: 100%;
       margin-bottom: 20px;
@@ -168,58 +176,15 @@ header {
       max-width: 100%; }
     .fondo-contact form #botonn {
       background: #31384a;
-      color: #fff;
+      color: white;
       padding: 10px; }
       .fondo-contact form #botonn:hover {
-        background: #228b22; }
-
-.card-productos .container-tarj2 {
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: self-end;
-  text-align: center;
-  gap: 50px; }
-  .card-productos .container-tarj2 .card2 {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 300px;
-    transition: transform 0.2s; }
-    .card-productos .container-tarj2 .card2:hover {
-      transform: scale(1.05); }
-    .card-productos .container-tarj2 .card2 img {
-      width: 100%;
-      display: block;
-      overflow: hidden; }
-    .card-productos .container-tarj2 .card2 .contenido2 h3 {
-      font-weight: bolder;
-      color: forestgreen;
-      text-align: center; }
-    .card-productos .container-tarj2 .card2 .contenido2 p {
-      line-height: 1.5;
-      color: #111;
-      text-align: center; }
-    .card-productos .container-tarj2 .card2 .contenido2 a {
-      text-decoration: none;
-      display: flex;
-      justify-content: center;
-      padding: 10px;
-      margin-bottom: 10px;
-      color: #111;
-      border: 1px solid #228b22;
-      border-radius: 6px;
-      transition: all 400ms ease; }
-      .card-productos .container-tarj2 .card2 .contenido2 a:hover {
-        background: #228b22;
-        color: #fff; }
+        background: forestgreen; }
 
 footer {
-  background-color: #111;
+  background-color: black;
   width: 100%;
-  color: #fff;
+  color: white;
   text-align: center;
   font-size: 25px; }
   footer .redes a {
@@ -228,7 +193,7 @@ footer {
     font-size: 40px;
     letter-spacing: 10px; }
     footer .redes a:hover {
-      color: #fff; }
+      color: white; }
 
 @media screen and (max-width: 685px) {
   .bienvenidos {

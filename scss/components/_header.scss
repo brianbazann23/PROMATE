@@ -2,9 +2,9 @@ header{
     top: 0;
     nav {
         .container-fluid{
-        background-color: black;
+        background-color: $color-secundario;
         .navbar-brand h1{
-            color: forestgreen;
+            color: $color-principal;
             font-size: 35px;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             font-weight: bold;
@@ -18,13 +18,23 @@ header{
                     font-size: 20px;
                     color: forestgreen;
                     &:hover{
-                        color: white;
+                        color: $color-terciario;
                     }
                 }
                 .navbar-toggler{
-                    color: forestgreen;
+                    color: $color-principal;
                 }
             } 
+            .btn-outline-success{
+                color: #fff;
+                background-color: rgba(0, 0, 0, 0.613);
+                border-radius: 4px;
+                border-color: #228b22;
+                &:hover{
+                    background: #228b22;
+                    color: #fff;
+                }
+            }
         }
     }
     }
