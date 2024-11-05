@@ -22,20 +22,20 @@ header {
   header nav .navbarSupportedContent .navbar-nav .navbar-toggler {
     color: forestgreen; }
   header nav .navbarSupportedContent .btn-outline-success {
-    color: #fff;
+    color: white;
     background-color: rgba(0, 0, 0, 0.613);
     border-radius: 4px;
     border-color: #228b22; }
     header nav .navbarSupportedContent .btn-outline-success:hover {
-      background: #228b22;
-      color: #fff; }
+      background: forestgreen;
+      color: white; }
 
 .hero {
   color: forestgreen;
   text-align: center;
   height: 85vh;
   width: auto;
-  background-image: url(../img/banner\mate.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.538), rgba(0, 0, 0, 0.509)), url(../img/banner\mate.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,14 +54,19 @@ header {
   justify-content: space-evenly;
   align-items: center;
   padding: 10px; }
-  .bienvenidos div h2 {
+  .bienvenidos h2 {
     font-size: 30px;
     font-weight: bolder;
     color: forestgreen;
     text-align: center; }
-  .bienvenidos img {
-    width: 400px;
-    height: 470px; }
+  .bienvenidos p {
+    font-size: 20px;
+    padding: 30px;
+    text-align: center; }
+
+img {
+  width: 400px;
+  height: 470px; }
 
 .nosotros {
   background-image: url(../img/campoia.jpeg);
@@ -181,6 +186,53 @@ header {
       .fondo-contact form #botonn:hover {
         background: forestgreen; }
 
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: wrap; }
+  .cards-container .cards {
+    width: 325px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black 0, 0, 0, 0.2;
+    margin: 20px;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    border: 1px solid forestgreen;
+    transform: translateX(0px);
+    transition: 1.1s all; }
+    .cards-container .cards:hover {
+      box-shadow: 6px 6px 40px 10px forestgreen; }
+    .cards-container .cards img {
+      width: 100%;
+      height: auto; }
+    .cards-container .cards .cards-content {
+      display: flex;
+      justify-content: column;
+      align-items: center;
+      padding: 20px; }
+      .cards-container .cards .cards-content h3 {
+        color: forestgreen;
+        font-size: 25px;
+        margin-bottom: 8px; }
+      .cards-container .cards .cards-content p {
+        color: #666;
+        font-size: 15px;
+        line-height: 1.3;
+        text-align: center;
+        padding: 20px; }
+      .cards-container .cards .cards-content .btn {
+        color: black;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        border-color: forestgreen; }
+        .cards-container .cards .cards-content .btn:hover {
+          background-color: forestgreen;
+          color: white; }
+
 footer {
   background-color: black;
   width: 100%;
@@ -208,68 +260,3 @@ footer {
   .bienvenidos img {
     width: 300px;
     height: 320px; } }
-
-@media screen and (max-width: 855px) {
-  .nosotros-caja {
-    display: flex;
-    flex-direction: column; }
-  .nosotros-title {
-    font-size: 30px; }
-  .nosotros-p {
-    font-size: 20px;
-    color: white;
-    padding: 60px;
-    justify-content: center;
-    align-items: center; }
-  .nosotros
-iframe {
-    border-radius: 5px;
-    width: 100%;
-    height: 300px;
-    padding: 60px; } }
-
-@media screen and (max-width: 448px) {
-  .nosotros-p {
-    font-size: 20px;
-    color: white;
-    padding: 40px; } }
-
-@media screen and (max-width: 880px) {
-  .card-servicios {
-    width: 100%;
-    height: auto;
-    padding: 0%; }
-  .container-tarj {
-    width: 100%; }
-  .card {
-    width: 300px;
-    margin: 20px; }
-  .card img {
-    width: 100%;
-    height: 300px; }
-  .card .contenido {
-    padding: 10px;
-    text-align: center;
-    width: 100%; } }
-
-@media screen and (max-width: 830px) {
-  .card .contenido p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center; } }
-
-@media screen and (max-width: 730px) {
-  .container-tarj {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center; } }
-
-@media screen and (max-width: 458px) {
-  form {
-    width: 350px;
-    padding: 20px; } }
